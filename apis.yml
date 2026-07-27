@@ -1,8 +1,25 @@
 aid: hedvig
 name: Hedvig
-description: 'Hedvig is a company surfaced as a portfolio company of anthemis, obvious-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: insurtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Hedvig is a Swedish insurtech offering mobile-first digital insurance
+  to consumers, with more than 200,000 customers managing policies and reporting claims
+  through its app. Products span home and apartment (hemförsäkring), villa, car, pet
+  (dog and cat), accident, student, and travel insurance, with in-app chat support and
+  fast digital claims. Backed by Anthemis and Obvious Ventures, Hedvig operates a
+  consumer app over internal APIs and publishes no public developer API surface; this
+  network profile captures the company identity, public web properties, and domain
+  security posture.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.hedvig.com/f/165473/1500x1500/93bd48e18f/bil-baklucka-solrosor.jpg
 url: https://raw.githubusercontent.com/api-evangelist/hedvig/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Insurtech
+- Insurance
+- Sweden
+- Consumer
+- Mobile
+- Home Insurance
+- Pet Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hedvig-domain-security.yml
 - type: Website
   url: https://hedvig.com
+- type: GitHubOrganization
+  url: https://github.com/HedvigInsurance
+- type: Blog
+  url: https://www.hedvig.com/se/blogg
+- type: Support
+  url: https://www.hedvig.com/se/hjalp/faq
+- type: TermsOfService
+  url: https://www.hedvig.com/se/hjalp/villkor
+- type: PrivacyPolicy
+  url: https://www.hedvig.com/se/hedvig/personuppgifter
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
