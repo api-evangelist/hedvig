@@ -8,6 +8,17 @@ description: 'Hedvig is a Swedish insurtech offering mobile-first digital insura
   consumer app over internal APIs and publishes no public developer API surface; this
   network profile captures the company identity, public web properties, and domain
   security posture.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
